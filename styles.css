@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 24;
+  color: #8d8d8d;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 64;
+  color: #555555;
+}
+
+p {
+  font-style: normal;
+  font-size: 32;
+}
