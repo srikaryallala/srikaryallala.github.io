@@ -1,20 +1,24 @@
 body {
   font-family: Arial;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h3 {
   font-style: italic;
-  font-size: 24;
+  font-size: 64;
   color: #8d8d8d;
 }
 
 h1 {
   font-style: bold;
-  font-size: 64;
+  font-size: 84;
   color: #555555;
 }
 
 p {
   font-style: normal;
-  font-size: 32;
+  font-size: 52;
+  color:#3b3b3b;
+  line-height: 45px;
 }
