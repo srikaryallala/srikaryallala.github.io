@@ -54,3 +54,13 @@ body h2 {
 .c80 {
   flex-grow: 4;
 }
+
+.github-logo {
+  max-width: 100%;
+}
+
+.writing-feather {
+  width: 100%;
+  max-width: 100%;
+}
+
