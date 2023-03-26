@@ -109,3 +109,10 @@ Button a:hover {
 Button a:active {
   text-decoration: none;
 }
+
+.disabled {
+  background-color: #439dbb;
+  color: white;
+  opacity: 0.6;
+  cursor: not-allowed;
+}

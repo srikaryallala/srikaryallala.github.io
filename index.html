@@ -19,9 +19,9 @@
   </p>
 
   <div class="nav-menu">
-    <Button class="button"><a href="#workexp">Resume</a></Button>
-    <Button class="button"><a href="#persproj">Projects</a></Button>
-    <Button class="button"><a href="#workproc">Work Process</a></Button>
+    <Button class="button" onClick="getElementById('workexp').scrollIntoView(true)">Resume</Button>
+    <Button class="button" onClick="getElementById('persproj').scrollIntoView(true)">Projects</Button>
+    <Button class="button" onClick="getElementById('workproc').scrollIntoView(true)">Work Process</Button>
   </div>
 
 
@@ -43,6 +43,12 @@
     </div>
   </div>
 
+  <div class="nav-menu">
+    <Button class="button disabled" onClick="getElementById('workexp').scrollIntoView(true)">Resume</Button>
+    <Button class="button" onClick="getElementById('persproj').scrollIntoView(true)">Projects</Button>
+    <Button class="button" onClick="getElementById('workproc').scrollIntoView(true)">Work Process</Button>
+  </div>
+
   <h2 id="persproj">Personal Projects</h2>
   <div class="col-container">
     <div class="column c80">
@@ -58,8 +64,16 @@
       </p>
     </div>
     <div class="column c20">
-      <img class="github-logo" src="github-logo.png">
+      <a href="https://github.com/srikaryallala/news-headlines">
+        <img class="github-logo" src="github-logo.png">
+      </a>
     </div>
+  </div>
+
+  <div class="nav-menu">
+    <Button class="button" onClick="getElementById('workexp').scrollIntoView(true)">Resume</Button>
+    <Button class="button disabled" onClick="getElementById('persproj').scrollIntoView(true)">Projects</Button>
+    <Button class="button" onClick="getElementById('workproc').scrollIntoView(true)">Work Process</Button>
   </div>
 
   <h2 id="workproc">Work Process</h2>
@@ -80,6 +94,12 @@
     <div class="column c20">
       <img class="writing-feather" src="writing.svg">
     </div>
+  </div>
+
+  <div class="nav-menu">
+    <Button class="button" onClick="getElementById('workexp').scrollIntoView(true)">Resume</Button>
+    <Button class="button" onClick="getElementById('persproj').scrollIntoView(true)">Projects</Button>
+    <Button class="button disabled" onClick="getElementById('workproc').scrollIntoView(true)">Work Process</Button>
   </div>
 </body>
 
