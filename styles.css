@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial;
   margin-left: 20%;
@@ -64,3 +68,44 @@ body h2 {
   max-width: 100%;
 }
 
+.nav-menu {
+  width: 100%;
+}
+
+.button {
+  width: 33%;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 32px;
+  background-color: white;
+  color: #439dbb;
+  font-size: 24px;
+  font-weight: bold;
+  border-color: #439dbb;
+}
+
+.button:hover {
+  background-color: #439dbb;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+Button a:link {
+  text-decoration: none;
+}
+
+Button a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+Button a:hover {
+  text-decoration: none;
+  color: inherit
+}
+
+Button a:active {
+  text-decoration: none;
+}
