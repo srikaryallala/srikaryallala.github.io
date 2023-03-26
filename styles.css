@@ -4,21 +4,53 @@ body {
   margin-right: 20%;
 }
 
-h3 {
+body h3 {
   font-style: italic;
-  font-size: 64;
+  font-size: 34px;
   color: #8d8d8d;
 }
 
-h1 {
-  font-style: bold;
-  font-size: 84;
+body h1 {
+  font-weight: bold;
+  font-size: 84px;
   color: #555555;
 }
 
-p {
+body p {
   font-style: normal;
-  font-size: 52;
+  font-size: 32px;
   color:#3b3b3b;
-  line-height: 45px;
+  line-height: 85px;
+}
+
+body h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 64px;
+  color: #555555;
+}
+
+.resume {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+}
+
+.c20 {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.c80 {
+  flex-grow: 4;
 }
