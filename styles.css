@@ -2,6 +2,30 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  text-align: right;
+}
+
+header a {
+  font-weight: bold;
+  font-size: 24px !important;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #e8e8e8;
+  color: #439dbb;
+  /* border: 5px #439dbb; */
+}
+
+header a:hover {
+  background-color: #439dbb;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 body {
   font-family: Arial;
   margin-left: 20%;
