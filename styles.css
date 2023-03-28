@@ -101,6 +101,10 @@ Button a:visited {
   color: inherit;
 }
 
+Button {
+  cursor: pointer;
+}
+
 Button a:hover {
   text-decoration: none;
   color: inherit
