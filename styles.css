@@ -16,6 +16,7 @@ header a {
   padding: 10px 10px;
   background-color: #e8e8e8;
   color: #439dbb;
+  border-radius: 12px;
   /* border: 5px #439dbb; */
 }
 
@@ -68,6 +69,12 @@ body h2 {
   width: 100%;
 }
 
+.col-container-header {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
 .column {
   flex: 1;
 }
@@ -77,6 +84,23 @@ body h2 {
   flex-grow: 1;
   justify-content: center;
   align-items: center;
+}
+
+.c40 {
+  display: flex;
+  flex-grow: 4;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  height: auto; 
+  width: 75%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.c60 {
+  flex-grow: 6;
 }
 
 .c80 {
