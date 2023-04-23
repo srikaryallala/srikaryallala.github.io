@@ -171,19 +171,19 @@ Button a:active {
 
 #scrollToTop {
   text-align: center;
-  position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 60px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
-  color: #8d8d8d; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  font-size: 100px; /* Increase font size */
+  position: fixed;
+  bottom: 30px;
+  right: 60px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #8d8d8d;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 100px;
 }
 
 #scrollToTop:hover {
-  color: #555555; /* Add a dark-grey background on hover */
+  color: #555555;
 }
