@@ -187,3 +187,30 @@ Button a:active {
 #scrollToTop:hover {
   color: #555555;
 }
+
+footer {
+  margin-top: 20px;
+  height: 100px;
+}
+
+footer .col-container {
+  height: 100%;
+}
+
+footer .col-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .col {
+  align-items: center;
+  float: none;
+  width: 100%;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
